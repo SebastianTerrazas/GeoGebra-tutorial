@@ -1,0 +1,308 @@
+body {
+	background-color: #9A99FFFF;
+
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.PPCuadro {
+	background-color: #6061FDFF;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 200;
+}
+
+.PICuadro {
+	background-color: #9A99FFFF;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 100;
+}
+.PICuadro h2 {
+	font-size: 50px;
+}
+.PICuadro h1 {
+	
+}
+
+.B1Cuadro {
+	background-color: #AE2;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 100;
+}
+.B1Cuadro h1, .B1Cuadro h2 {
+	color: #AE2;
+}
+.B1Cuadro h3 {
+	color: white;
+	position: absolute;
+	left: 38%;
+	bottom: 85%;
+	font-size: 40px;
+}
+.B1Cuadro img {
+	width: 580px;
+	position: absolute;
+	right: 18%;
+	bottom: 4%;
+}
+
+.B2Cuadro {
+	background-color: #C24;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 100;
+}
+.B2Cuadro h1, .B2Cuadro h2 {
+	color: #C24;
+}
+.B2Cuadro h3 {
+	color: white;
+	position: absolute;
+	left: 32%;
+	bottom: 85%;
+	font-size: 40px;
+}
+.Tut21 {
+	width: 300px;
+	position: absolute;
+	bottom: 55%;
+	right: 60%;
+}
+.Tut22 {
+	width: 300px;
+	position: absolute;
+	bottom: 34%;
+	right: 60%;
+}
+.Tut23 {
+	width: 300px;
+	position: absolute;
+	bottom: 15%;
+	right: 60%;
+}
+.B2Cuadro p {
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+}
+
+.B3Cuadro {
+	background-color: #D80;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 100;
+}
+.B3Cuadro h1, .B3Cuadro h2 {
+	color: #D80;
+}
+.B3Cuadro h3 {
+	color: white;
+	position: absolute;
+	left: 42%;
+	bottom: 85%;
+	font-size: 40px;
+}
+.B3Cuadro img {
+	width: 730px;
+	position: absolute;
+	right: 12%;
+	bottom: 30%;
+}
+.B3Cuadro p {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 0%;
+	bottom: 6%;
+}
+
+.B4Cuadro {
+	background-color: #2B2;
+	display: inline-block;
+	width: 70%;
+	padding:3% 0px 10% 0px;
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	z-index: 100;
+}
+.B4Cuadro h1, .B4Cuadro h2 {
+	color: #2B2;
+}
+.B4Cuadro h3 {
+	color: white;
+	position: absolute;
+	left: 37%;
+	bottom: 85%;
+	font-size: 40px;
+}
+.B4Cuadro img {
+	width: 730px;
+	position: absolute;
+	right: 12%;
+	bottom: 30%;
+}
+.B4Cuadro p {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 0%;
+	bottom: 6%;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 150px;
+	color: #282923FF;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 80px;
+	color: #FFFFFF;
+	right: 100px;
+}
+
+.B1 {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #AE2;
+  	padding: 3.38% 6.1%;
+  	position: absolute;
+ 	left: 85%;
+ 	cursor: pointer;
+ 	z-index: 500;
+}
+.B1:hover {
+	transition: 0.3s;
+	left: 84%;
+	padding-left: 7.1%;
+}
+
+.B2 {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #C24;
+  	padding: 3.38% 6.1%;
+  	position: absolute;
+ 	left: 85%;
+ 	top: 25%;
+ 	cursor: pointer;
+ 	z-index: 500;
+}
+.B2:hover {
+	transition: 0.3s;
+	left: 84%;
+	padding-left: 7.1%;
+}
+
+.B3 {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #D80;
+  	padding: 3.38% 6.1%;
+  	position: absolute;
+ 	left: 85%;
+ 	top: 50%;
+ 	cursor: pointer;
+ 	z-index: 500;
+}
+.B3:hover {
+	transition: 0.3s;
+	left: 84%;
+	padding-left: 7.1%;
+}
+
+.B4 {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #2B2;
+  	padding: 3.38% 6.1%;
+  	position: absolute;
+ 	left: 85%;
+ 	top: 75%;
+ 	cursor: pointer;
+ 	z-index: 500;
+}
+.B4:hover {
+	transition: 0.3s;
+	left: 84%;
+	padding-left: 7.1%;
+}
+
+.In {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #6061FDFF;
+  	padding: 9.75% 1.51%;
+  	position: absolute;
+ 	left: 0%;
+ 	top: 0%;
+ 	cursor: default;
+ 	z-index: 500;
+}
+.In:hover {
+	transition: 0.3s;
+	padding-right: 2.51%;
+}
+
+.Info {
+	font-family: helvetica;
+  	font-size: 70px;
+  	font-style: bold;
+  	color: #FFF;
+  	display: inline-block;
+  	background-color: #9A99FFFF;
+  	padding: 9.75% 3.246%;
+  	position: absolute;
+ 	left: 0%;
+ 	top: 50%;
+ 	cursor: pointer;
+ 	z-index: 500;
+}
+.Info:hover {
+	transition: 0.3s;
+	padding-right: 4.246%;
+}
